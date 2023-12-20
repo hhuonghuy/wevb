@@ -1,0 +1,98 @@
+<style>
+    *{margin: 0;padding: 0;-webkit-font-smoothing: antialiased;-webkit-text-shadow: rgba(0,0,0,.01) 0 0 1px;text-shadow: rgba(0,0,0,.01) 0 0 1px}body{font-family: 'Rubik', sans-serif;font-size: 14px;font-weight: 400;background: #E0E0E0;color: #000000}ul{list-style: none;margin-bottom: 0px}.button{display: inline-block;background: #0e8ce4;border-radius: 5px;height: 48px;-webkit-transition: all 200ms ease;-moz-transition: all 200ms ease;-ms-transition: all 200ms ease;-o-transition: all 200ms ease;transition: all 200ms ease}.button a{display: block;font-size: 18px;font-weight: 400;line-height: 48px;color: #FFFFFF;padding-left: 35px;padding-right: 35px}.button:hover{opacity: 0.8}.cart_section{width: 100%;padding-top: 93px;padding-bottom: 111px}.cart_title{font-size: 30px;font-weight: 500}.cart_items{margin-top: 8px}.cart_list{border: solid 1px #e8e8e8;box-shadow: 0px 1px 5px rgba(0,0,0,0.1);background-color: #fff}.cart_item{width: 100%;padding: 15px;padding-right: 46px}.cart_item_image{width: 133px;height: 133px;float: left}.cart_item_image img{max-width: 100%}.cart_item_info{width: calc(100% - 133px);float: left;padding-top: 18px}.cart_item_name{margin-left: 7.53%}.cart_item_title{font-size: 14px;font-weight: 400;color: rgba(0,0,0,0.5)}.cart_item_text{font-size: 18px;margin-top: 35px}.cart_item_text span{display: inline-block;width: 20px;height: 20px;border-radius: 50%;margin-right: 11px;-webkit-transform: translateY(4px);-moz-transform: translateY(4px);-ms-transform: translateY(4px);-o-transform: translateY(4px);transform: translateY(4px)}.cart_item_price{text-align: right}.cart_item_total{text-align: right}.order_total{width: 100%;height: 60px;margin-top: 30px;border: solid 1px #e8e8e8;box-shadow: 0px 1px 5px rgba(0,0,0,0.1);padding-right: 46px;padding-left: 15px;background-color: #fff}.order_total_title{display: inline-block;font-size: 14px;color: rgba(0,0,0,0.5);line-height: 60px}.order_total_amount{display: inline-block;font-size: 18px;font-weight: 500;margin-left: 26px;line-height: 60px}.cart_buttons{margin-top: 60px;text-align: right}.cart_button_clear{display: inline-block;border: none;font-size: 18px;font-weight: 400;line-height: 48px;color: rgba(0,0,0,0.5);background: #FFFFFF;border: solid 1px #b2b2b2;padding-left: 35px;padding-right: 35px;outline: none;cursor: pointer;margin-right: 26px}.cart_button_clear:hover{border-color: #0e8ce4;color: #0e8ce4}.cart_button_checkout{display: inline-block;border: none;font-size: 18px;font-weight: 400;line-height: 48px;color: #FFFFFF;padding-left: 35px;padding-right: 35px;outline: none;cursor: pointer;vertical-align: top}
+</style>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Viper shop</title>
+    <link rel="stylesheet" href="/css/cart.css">
+    <link rel="shortcut icon" href="/images/pngwing.com.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+</head>
+
+<header>
+    <h1 class="logo">Viper Shop</h1>
+    <ul>
+        <li><a href="/index.html">Home</a></li>
+        <li><a href="/pages/products.html">Products</a></li>
+        <li><a href="/pages/cart.html">Cart</a></li>
+        <li><a href="/pages/login.html">Login/Sign up</a></li>
+    </ul>
+</header>
+
+<body>
+    <section class="vh-100" style="background-color: #127C56;">
+        <div class="container h-100">
+          <div class="row d-flex justify-content-center align-items-center h-100">
+            <div class="col">
+              <p><span class="h2" style="color: white;">Shopping Cart </span>
+                <span class="h4" style="color: white;">(1 item in your cart)</span></p>
+      
+              <div class="card mb-4">
+                <div class="card-body p-4">
+      
+                  <div class="row align-items-center">
+                    <div class="col-md-2">
+                      <img src="/images/beard dragon.jpg"
+                        class="img-fluid" alt="Generic placeholder image">
+                    </div>
+                    <div class="col-md-2 d-flex justify-content-center">
+                      <div>
+                        <p class="small text-muted mb-4 pb-2">Tên:</p>
+                        <p class="lead fw-normal mb-0">Beard dragon - Rồng Úc</p>
+                      </div>
+                    </div>
+                    <div class="col-md-2 d-flex justify-content-center">
+                      <div>
+                        <p class="small text-muted mb-4 pb-2">Số lượng:</p>
+                        <p class="lead fw-normal mb-0">1</p>
+                      </div>
+                    </div>
+                    <div class="col-md-2 d-flex justify-content-center">
+                      <div>
+                        <p class="small text-muted mb-4 pb-2">Giá:</p>
+                        <p class="lead fw-normal mb-0">500.000đ</p>
+                      </div>
+                    </div>
+                    <div class="col-md-2 d-flex justify-content-center">
+                      <div>
+                        <p class="small text-muted mb-4 pb-2">Tổng cộng:</p>
+                        <p class="lead fw-normal mb-0">500.000đ</p>
+                      </div>
+                    </div>
+                  </div>
+      
+                </div>
+              </div>
+      
+              <div class="card mb-5">
+                <div class="card-body p-4">
+      
+                  <div class="float-end">
+                    <p class="mb-0 me-5 d-flex align-items-center">
+                      <span class="small text-muted me-2">Tổng đơn hàng:</span> <span
+                        class="lead fw-normal">500.000đ</span>
+                    </p>
+                  </div>
+      
+                </div>
+              </div>
+      
+              <div class="d-flex justify-content-end">
+                <button type="button" class="btn btn-light btn-lg me-2">Quay lại shop</button>
+                <button type="button" class="btn btn-warning btn-lg">Thanh toán</button>
+              </div>
+      
+            </div>
+          </div>
+        </div>
+      </section>
+</body>
+<footer>
+    <h4>terms of use and privacy</h4>
+</footer>
+</html>
